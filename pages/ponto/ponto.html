@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home - Projeto Integrador</title>
+  </head>
+  <body class="centralize">
+    <div class="container">
+      <header class="title">Controle Ponto</header>
+      <p id="data_hora_atual"></p>
+      <div class="title">Horários:</div>
+      <div class="input-container">
+        <span class="label">Entrada manhã:</span>
+        <input type="text" id="horario1" placeholder="08:00" readonly />
+      </div>
+      <div class="input-container">
+        <span class="label">Saída manhã:</span>
+        <input type="text" id="horario2" placeholder="12:00" readonly />
+      </div>
+      <div class="input-container">
+        <span class="label">Entrada tarde:</span>
+        <input type="text" id="horario3" placeholder="13:00" readonly />
+      </div>
+      <div class="input-container">
+        <span class="label">Saída tarde:</span>
+        <input type="text" id="horario4" placeholder="18:00" readonly />
+      </div>
+
+      <button class="btn" id="btnRegistrar">Registrar</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
